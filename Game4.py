@@ -141,10 +141,10 @@ def main():
         accuracy = acc_record[0]/acc_record[1]*100 if acc_record[1] >0 else 0
         accuracy = '%.2f' % accuracy
     
-    
+
+
 if __name__ == '__main__':
     main()
-
 
 
 
