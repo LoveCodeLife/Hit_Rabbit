@@ -1,9 +1,3 @@
-'''
-Created on Mar 12, 2021
-
-@author: martinyanev
-'''
-
 import os
 
 FPS = 100

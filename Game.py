@@ -1,8 +1,3 @@
-'''
-Created on Mar 12, 2021
-
-@author: martinyanev
-'''
 import sys
 import cfg
 import math
@@ -18,7 +13,7 @@ def initGame():
     pygame.init()
     pygame.mixer.init()
     screen = pygame.display.set_mode(cfg.SCREENSIZE)
-    pygame.display.set_caption('Bunnies and Badgers —— Charles的皮卡丘')
+    pygame.display.set_caption('Bunnies and Badgers —— LoveCodeLife')
 
     game_images = {}
     for key, value in cfg.Imagees.items():
